@@ -33,7 +33,8 @@ header{
 section#relojes{
 	width: 1020px;
 	height: 457px;
-	background-color: blue;
+	background-color: orange;
+	padding-top: 20px;
 }
 section#nosotros{
 	width: 1020px;
@@ -77,4 +78,23 @@ nav a{
 }
 nav a:hover{
 	color: #DA0F12;
+}
+section#relojes h2{
+	font-size: 34px;
+	color: white;
+	background-color: #30a2a6;
+	width: 324px;
+	height: 105px;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+div.boxrelojes{
+	width: 237px;
+	height: 273px;
+	background-color: grey;
+	float: left;
+	margin-top: 40px;
+	margin-left: 9px;
+	margin-right: 9px;
 }
