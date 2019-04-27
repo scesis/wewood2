@@ -38,18 +38,14 @@ section#relojes{
 section#nosotros{
 	width: 1020px;
 	height: 748px;
-	background-color: pink;
 }
 section#catalogo{
 	width: 1020px;
-	height: 788px;
-	background-color: purple;
-	
+	height: 788px;	
 }
 section#contacto{
 	width: 1020px;
 	height: 615px;
-	background-color: orange;
 }
 footer{
 	width: 1020px;
@@ -121,4 +117,191 @@ h2.titulos {
 	text-align: right;
 	padding-right: 10px;
 	padding-top: 10px;
+}
+div#boxnosotros{
+	width: 846px;
+	height: 551px;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	margin-top: 52px;
+}
+div.cajitas{
+	width: 423px;
+	height: 275px;
+	float:left;
+}
+div#txtartesanales{
+	background-color: #B14E80;
+}
+div#imgartesanales{
+	background-image: url("img/imgartesanales.jpg");
+}
+div#txtdiseno{
+	background-color: #30A2A6;
+}
+div.cajitas h3{
+	color: white;
+	margin-left: 39px;
+	margin-right: 39px;
+	margin-top: 63px;
+	margin-bottom: 24px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+div.cajitas p{
+	color: #cccccc;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	line-height: 24px;
+	margin-left: 39px;
+	margin-right: 39px;
+}
+div.boxcatalogo{
+	width: 324px;
+	height: 587px;
+	float: left;
+	background-color: #EE5558;
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-top: 66px;
+	text-align: center;
+}
+div.boxcatalogo h4{
+	font-size: 38px;
+	font-weight: bold;
+	font-family: "Arial", sans-serif;
+	color: #B14E80;
+	margin-top: 60px;
+	margin-bottom: 21px;
+	}
+div.boxcatalogo h5{
+	font-size: 21px;
+	font-weight: bold;
+	color: #B14E80;
+	font-family: "Arial", sans-serif;
+	margin-bottom: 52px;
+}
+div.boxcatalogo a{
+	width: 112px;
+	height: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 48px;
+	border: solid 1px #B14E80;
+	border-radius: 22px;
+	color: #B14E80;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 500;
+	padding-top: 9px;		
+}
+div.boxcatalogo p{
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: #B14E80;
+	font-weight: bold;
+}
+div.boxcontacto{
+	width: 510px;
+	height: 360px;
+	float: left;
+	margin-top: 60px;
+}
+table{
+	width: 330px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.campo{
+	width: 300px;
+	height: 40px;
+	border: solid 1px #B14E80;
+	border-radius: 8px;
+	background-color: transparent;
+	font-weight: 100;
+	font-size: 16px;
+	color: #B14E80;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+#altura{
+	height: 130px;
+	padding-top: 10px;
+	resize: none;
+}
+.enviar{
+	width: 87px;
+	height: 30px;
+	background-color: #B14E80;
+	color: white;
+	font-size: 16px;
+	border-radius: 8px;
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;	
+}
+.enviar:hover{
+	background-color: #461C31;
+	color: #B14E80;
+}
+
+::-webkit-input-placeholder{color: #B14E80;} /* Safari & Crome*/
+::-moz-input-placeholder{color: #B14E80;} /* Mozila Firefox*/
+::-ms-input-placeholder{coor: #B14E80;} /* Microsoft IE o Edge*/
+::-o-input-placeholder{color: #B14E80;} /*Opera*/
+input-placeholder{color: #B14E80;} /*Universal*/
+
+footer h2{
+	color: white;
+	font-weight: 100;
+	padding-top: 17px;
+	padding-left: 17px;
+	font-size: 18px;
+	font-family: "Arial", sans-serif;
+	float: left;
+	}
+footer ul{
+	float: right;
+	margin-right: 15px;
+	margin-top: 20px;
+	list-style: none;
+}
+
+footer ul li{
+	float: left;
+	margin-left: 15px;
+}
+
+div#face{
+	width: 7px;
+	height: 13px;
+	background-image: url("img/facebook.svg");
+	margin-left: 28px;
+	}
+div#face:hover{
+	background-image: url("img/facebook_rosa.svg");
+}
+div#instagram{
+	width: 13px;
+	height: 13px;
+	background-image: url("img/instagram.svg");
+	margin-left: 14px;
+}
+div#instagram:hover{
+	background-image: url("img/instagram_rosa.svg");
+}
+div#twitter{
+	width: 13px;
+	height: 11px;
+	background-image: url("img/twitter.svg");
+}
+div#twitter:hover{
+	background-image: url("img/twitter_rosa.svg");
+	
 }
